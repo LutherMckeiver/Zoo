@@ -4,7 +4,10 @@ using System.Text;
 
 namespace Zoo.Classes.Vertebrates
 {
-    class Vertebrates
+    public abstract class Vertebrates
     {
+        public abstract string Name{ get; set; }
+        public virtual string Sound { get; set; }
+        public abstract string SkinType { get; set; }
     }
 }
