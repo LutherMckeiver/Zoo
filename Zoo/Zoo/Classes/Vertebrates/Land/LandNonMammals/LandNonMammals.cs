@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes.Vertebrates.Land.NonMammals
 {
-    public abstract class NonMammals : Land
+    public abstract class LandNonMammals : Land
     {
 
         public virtual string Sex { get; set; }

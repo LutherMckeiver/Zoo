@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes.Vertebrates.Land.Mammals
 {
-    public abstract class LandMammals : Vertebrates
+    public abstract class LandMammals : Land
     {
 
 
