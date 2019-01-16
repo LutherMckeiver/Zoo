@@ -10,13 +10,12 @@ namespace Zoo.Classes.Vertebrates.Water
         public override bool CanLayEggs { get; set; } = true;
 
         public override string SkinType { get; set; } = "smooth fur";
+
         public override string Name { get; set; } = "Mumble";
 
         public override string Reproduction()
         {
             return $"Can I Lay Eggs {CanLayEggs}";
         }
-
-       
     }
 }
